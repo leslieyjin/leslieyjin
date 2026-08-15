@@ -97,3 +97,37 @@ p {
     }
 
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    transition: opacity 0.2s;
+}
+
+.social-icons img:hover {
+    opacity: 0.6;
+}
+
+.documents {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.documents a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.documents a:hover {
+    text-decoration: underline;
+}
