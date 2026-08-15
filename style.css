@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 nav {
@@ -37,11 +37,29 @@ nav {
     text-decoration: underline;
 }
 
+.side-bar {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.main-panel {
+    width: 75%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
 .hero {
     display: flex;
     align-items: center;
     gap: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .hero-image img {
@@ -54,6 +72,11 @@ nav {
 .hero-text h1 {
     font-size: 48px;
     margin-bottom: 10px;
+}
+
+.hero-text ul {
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .subtitle {
@@ -75,28 +98,6 @@ p {
     max-width: 700px;
 }
 
-@media (max-width: 700px) {
-
-    nav {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-text h1 {
-        font-size: 36px;
-    }
-
-    .hero-image img {
-        width: 180px;
-        height: 180px;
-    }
-
-}
 
 .social-icons {
     display: flex;
@@ -130,4 +131,33 @@ p {
 
 .documents a:hover {
     text-decoration: underline;
+}
+
+
+.edu-title {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.edu-school{
+    font-size: 16px;
+}
+
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
 }
